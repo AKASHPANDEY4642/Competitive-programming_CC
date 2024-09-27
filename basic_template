@@ -9,7 +9,7 @@ const ll MOD = 998244353;
 #define vap(i, n) for (ll i = 0; i < n; i++)   
 #define vapi(i, n) for (ll i = 1; i <= n; i++) 
 #define vapii(i, n) for (ll i = 1; i < n; i++) 
-#define gcd gcd                        
+#define gcd  __gcd                        
 #define dee(x) cout << #x << " = " << x nl
 
 ll p_mod(ll num, ll idx, ll mod) {             
